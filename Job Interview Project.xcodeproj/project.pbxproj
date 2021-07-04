@@ -13,7 +13,6 @@
 		8414BCB7268C67980003442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414BCB6268C67980003442C /* Assets.xcassets */; };
 		8414BCBA268C67980003442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8414BCB8268C67980003442C /* LaunchScreen.storyboard */; };
 		8414BCC5268C67990003442C /* Job_Interview_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCC4268C67990003442C /* Job_Interview_ProjectTests.swift */; };
-		8414BCD0268C67990003442C /* Job_Interview_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */; };
 		8414BCDE268CDDA80003442C /* popularMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCDD268CDDA80003442C /* popularMoviesModel.swift */; };
 		8414BCE0268CDF750003442C /* movieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCDF268CDF750003442C /* movieDetailModel.swift */; };
 		8414BCE2268CE43A0003442C /* PopularMoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE1268CE43A0003442C /* PopularMoviesListViewController.swift */; };
@@ -67,8 +66,6 @@
 		8414BCC4268C67990003442C /* Job_Interview_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Interview_ProjectTests.swift; sourceTree = "<group>"; };
 		8414BCC6268C67990003442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8414BCCB268C67990003442C /* Job Interview ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Interview ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Interview_ProjectUITests.swift; sourceTree = "<group>"; };
-		8414BCD1268C67990003442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8414BCDD268CDDA80003442C /* popularMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularMoviesModel.swift; sourceTree = "<group>"; };
 		8414BCDF268CDF750003442C /* movieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetailModel.swift; sourceTree = "<group>"; };
 		8414BCE1268CE43A0003442C /* PopularMoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesListViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +119,6 @@
 			children = (
 				8414BCAC268C67950003442C /* Job Interview Project */,
 				8414BCC3268C67990003442C /* Job Interview ProjectTests */,
-				8414BCCE268C67990003442C /* Job Interview ProjectUITests */,
 				8414BCAB268C67950003442C /* Products */,
 				C3549E0F1BDB99D10EB3EB75 /* Pods */,
 				D3F34F49935ACB8DDF835039 /* Frameworks */,
@@ -164,15 +160,6 @@
 				8414BCC6268C67990003442C /* Info.plist */,
 			);
 			path = "Job Interview ProjectTests";
-			sourceTree = "<group>";
-		};
-		8414BCCE268C67990003442C /* Job Interview ProjectUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */,
-				8414BCD1268C67990003442C /* Info.plist */,
-			);
-			path = "Job Interview ProjectUITests";
 			sourceTree = "<group>";
 		};
 		84927E2C2691DE7100E6C1B2 /* APIManager */ = {
@@ -532,7 +519,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8414BCD0268C67990003442C /* Job_Interview_ProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
