@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DEF5E7665DFFF21AAC3169D /* Pods_Job_Interview_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C034133ECBD0E551CCD904D /* Pods_Job_Interview_ProjectTests.framework */; };
+		8414BCAE268C67950003442C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCAD268C67950003442C /* AppDelegate.swift */; };
+		8414BCB5268C67950003442C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8414BCB3268C67950003442C /* Main.storyboard */; };
+		8414BCB7268C67980003442C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8414BCB6268C67980003442C /* Assets.xcassets */; };
+		8414BCBA268C67980003442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8414BCB8268C67980003442C /* LaunchScreen.storyboard */; };
+		8414BCC5268C67990003442C /* Job_Interview_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCC4268C67990003442C /* Job_Interview_ProjectTests.swift */; };
+		8414BCD0268C67990003442C /* Job_Interview_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */; };
+		8414BCDE268CDDA80003442C /* popularMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCDD268CDDA80003442C /* popularMoviesModel.swift */; };
+		8414BCE0268CDF750003442C /* movieDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCDF268CDF750003442C /* movieDetailModel.swift */; };
+		8414BCE2268CE43A0003442C /* PopularMoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE1268CE43A0003442C /* PopularMoviesListViewController.swift */; };
+		8414BCE4268CE4530003442C /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE3268CE4530003442C /* MovieDetailViewController.swift */; };
+		8414BCE6268CE4780003442C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE5268CE4780003442C /* VideoPlayerViewController.swift */; };
+		8414BCE8268CE4DD0003442C /* PopularMovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE7268CE4DD0003442C /* PopularMovieTableViewCell.swift */; };
+		8414BCEA268CFC010003442C /* HttpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCE9268CFC010003442C /* HttpHandler.swift */; };
+		8414BCEC268CFC100003442C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCEB268CFC100003442C /* APIManager.swift */; };
+		8414BCEE268D04890003442C /* popularMoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCED268D04890003442C /* popularMoviesViewModel.swift */; };
+		8414BCF0268D04A70003442C /* movieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCEF268D04A70003442C /* movieDetailViewModel.swift */; };
+		8414BCF2268DC3DB0003442C /* UIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCF1268DC3DB0003442C /* UIApplication + Extension.swift */; };
+		8414BCF4268DC3EF0003442C /* UrlComponents + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8414BCF3268DC3EF0003442C /* UrlComponents + Extension.swift */; };
+		84927E29268F75DF00E6C1B2 /* videoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84927E28268F75DE00E6C1B2 /* videoModel.swift */; };
+		84927E2B268F769D00E6C1B2 /* videoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84927E2A268F769D00E6C1B2 /* videoViewModel.swift */; };
+		84927E362691E3A300E6C1B2 /* MoviesDetailTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84927E352691E3A300E6C1B2 /* MoviesDetailTestViewController.swift */; };
+		B5370508553867EB9D04F180 /* Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED64D61D65B3FD183522D11 /* Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework */; };
+		C088EBD338F5A9164FEF0D5A /* Pods_Job_Interview_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720914E19D7D59730573B2C2 /* Pods_Job_Interview_Project.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8414BCC1268C67990003442C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8414BCA2268C67950003442C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414BCA9268C67950003442C;
+			remoteInfo = "Job Interview Project";
+		};
+		8414BCCC268C67990003442C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8414BCA2268C67950003442C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414BCA9268C67950003442C;
+			remoteInfo = "Job Interview Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FB477774076F4CF8A3B2946 /* Pods-Job Interview ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Job Interview ProjectTests/Pods-Job Interview ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		186E8B87394D649B0FD50B38 /* Pods-Job Interview Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview Project.debug.xcconfig"; path = "Target Support Files/Pods-Job Interview Project/Pods-Job Interview Project.debug.xcconfig"; sourceTree = "<group>"; };
+		58DE649F2F91B817B15369A2 /* Pods-Job Interview Project-Job Interview ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview Project-Job Interview ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Job Interview Project-Job Interview ProjectUITests/Pods-Job Interview Project-Job Interview ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5EE2789FC78CD353BB2CC7C1 /* Pods-Job Interview ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Job Interview ProjectTests/Pods-Job Interview ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C034133ECBD0E551CCD904D /* Pods_Job_Interview_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Interview_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720914E19D7D59730573B2C2 /* Pods_Job_Interview_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Interview_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414BCAA268C67950003442C /* Job Interview Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Interview Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414BCAD268C67950003442C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8414BCB4268C67950003442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8414BCB6268C67980003442C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8414BCB9268C67980003442C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8414BCBB268C67980003442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8414BCC0268C67990003442C /* Job Interview ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Interview ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414BCC4268C67990003442C /* Job_Interview_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Interview_ProjectTests.swift; sourceTree = "<group>"; };
+		8414BCC6268C67990003442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8414BCCB268C67990003442C /* Job Interview ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Interview ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Interview_ProjectUITests.swift; sourceTree = "<group>"; };
+		8414BCD1268C67990003442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8414BCDD268CDDA80003442C /* popularMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularMoviesModel.swift; sourceTree = "<group>"; };
+		8414BCDF268CDF750003442C /* movieDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetailModel.swift; sourceTree = "<group>"; };
+		8414BCE1268CE43A0003442C /* PopularMoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMoviesListViewController.swift; sourceTree = "<group>"; };
+		8414BCE3268CE4530003442C /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		8414BCE5268CE4780003442C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		8414BCE7268CE4DD0003442C /* PopularMovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieTableViewCell.swift; sourceTree = "<group>"; };
+		8414BCE9268CFC010003442C /* HttpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHandler.swift; sourceTree = "<group>"; };
+		8414BCEB268CFC100003442C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8414BCED268D04890003442C /* popularMoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularMoviesViewModel.swift; sourceTree = "<group>"; };
+		8414BCEF268D04A70003442C /* movieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetailViewModel.swift; sourceTree = "<group>"; };
+		8414BCF1268DC3DB0003442C /* UIApplication + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication + Extension.swift"; sourceTree = "<group>"; };
+		8414BCF3268DC3EF0003442C /* UrlComponents + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UrlComponents + Extension.swift"; sourceTree = "<group>"; };
+		84927E28268F75DE00E6C1B2 /* videoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoModel.swift; sourceTree = "<group>"; };
+		84927E2A268F769D00E6C1B2 /* videoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewModel.swift; sourceTree = "<group>"; };
+		84927E352691E3A300E6C1B2 /* MoviesDetailTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailTestViewController.swift; sourceTree = "<group>"; };
+		CD4BD4F031D694F72A27637C /* Pods-Job Interview Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview Project.release.xcconfig"; path = "Target Support Files/Pods-Job Interview Project/Pods-Job Interview Project.release.xcconfig"; sourceTree = "<group>"; };
+		CED64D61D65B3FD183522D11 /* Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4223BB337A08AD1137DE0C /* Pods-Job Interview Project-Job Interview ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Interview Project-Job Interview ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Job Interview Project-Job Interview ProjectUITests/Pods-Job Interview Project-Job Interview ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8414BCA7268C67950003442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C088EBD338F5A9164FEF0D5A /* Pods_Job_Interview_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCBD268C67990003442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF5E7665DFFF21AAC3169D /* Pods_Job_Interview_ProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCC8268C67990003442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5370508553867EB9D04F180 /* Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8414BCA1268C67950003442C = {
+			isa = PBXGroup;
+			children = (
+				8414BCAC268C67950003442C /* Job Interview Project */,
+				8414BCC3268C67990003442C /* Job Interview ProjectTests */,
+				8414BCCE268C67990003442C /* Job Interview ProjectUITests */,
+				8414BCAB268C67950003442C /* Products */,
+				C3549E0F1BDB99D10EB3EB75 /* Pods */,
+				D3F34F49935ACB8DDF835039 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8414BCAB268C67950003442C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCAA268C67950003442C /* Job Interview Project.app */,
+				8414BCC0268C67990003442C /* Job Interview ProjectTests.xctest */,
+				8414BCCB268C67990003442C /* Job Interview ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8414BCAC268C67950003442C /* Job Interview Project */ = {
+			isa = PBXGroup;
+			children = (
+				84927E332691DEEA00E6C1B2 /* AppDelegate */,
+				84927E342691DEFD00E6C1B2 /* Storyboards */,
+				84927E312691DEC500E6C1B2 /* Popular Movies */,
+				84927E2E2691DE9600E6C1B2 /* Movie Detail */,
+				84927E302691DEB500E6C1B2 /* Videos */,
+				84927E2D2691DE8400E6C1B2 /* Extensions */,
+				84927E2C2691DE7100E6C1B2 /* APIManager */,
+				8414BCB6268C67980003442C /* Assets.xcassets */,
+				8414BCB8268C67980003442C /* LaunchScreen.storyboard */,
+				8414BCBB268C67980003442C /* Info.plist */,
+			);
+			path = "Job Interview Project";
+			sourceTree = "<group>";
+		};
+		8414BCC3268C67990003442C /* Job Interview ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCC4268C67990003442C /* Job_Interview_ProjectTests.swift */,
+				84927E352691E3A300E6C1B2 /* MoviesDetailTestViewController.swift */,
+				8414BCC6268C67990003442C /* Info.plist */,
+			);
+			path = "Job Interview ProjectTests";
+			sourceTree = "<group>";
+		};
+		8414BCCE268C67990003442C /* Job Interview ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCCF268C67990003442C /* Job_Interview_ProjectUITests.swift */,
+				8414BCD1268C67990003442C /* Info.plist */,
+			);
+			path = "Job Interview ProjectUITests";
+			sourceTree = "<group>";
+		};
+		84927E2C2691DE7100E6C1B2 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCE9268CFC010003442C /* HttpHandler.swift */,
+				8414BCEB268CFC100003442C /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		84927E2D2691DE8400E6C1B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCF1268DC3DB0003442C /* UIApplication + Extension.swift */,
+				8414BCF3268DC3EF0003442C /* UrlComponents + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84927E2E2691DE9600E6C1B2 /* Movie Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCE3268CE4530003442C /* MovieDetailViewController.swift */,
+				8414BCDF268CDF750003442C /* movieDetailModel.swift */,
+				8414BCEF268D04A70003442C /* movieDetailViewModel.swift */,
+			);
+			path = "Movie Detail";
+			sourceTree = "<group>";
+		};
+		84927E302691DEB500E6C1B2 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCE5268CE4780003442C /* VideoPlayerViewController.swift */,
+				84927E2A268F769D00E6C1B2 /* videoViewModel.swift */,
+				84927E28268F75DE00E6C1B2 /* videoModel.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		84927E312691DEC500E6C1B2 /* Popular Movies */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCDD268CDDA80003442C /* popularMoviesModel.swift */,
+				8414BCED268D04890003442C /* popularMoviesViewModel.swift */,
+				8414BCE1268CE43A0003442C /* PopularMoviesListViewController.swift */,
+				8414BCE7268CE4DD0003442C /* PopularMovieTableViewCell.swift */,
+			);
+			path = "Popular Movies";
+			sourceTree = "<group>";
+		};
+		84927E332691DEEA00E6C1B2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCAD268C67950003442C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		84927E342691DEFD00E6C1B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8414BCB3268C67950003442C /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C3549E0F1BDB99D10EB3EB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				186E8B87394D649B0FD50B38 /* Pods-Job Interview Project.debug.xcconfig */,
+				CD4BD4F031D694F72A27637C /* Pods-Job Interview Project.release.xcconfig */,
+				FE4223BB337A08AD1137DE0C /* Pods-Job Interview Project-Job Interview ProjectUITests.debug.xcconfig */,
+				58DE649F2F91B817B15369A2 /* Pods-Job Interview Project-Job Interview ProjectUITests.release.xcconfig */,
+				0FB477774076F4CF8A3B2946 /* Pods-Job Interview ProjectTests.debug.xcconfig */,
+				5EE2789FC78CD353BB2CC7C1 /* Pods-Job Interview ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D3F34F49935ACB8DDF835039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				720914E19D7D59730573B2C2 /* Pods_Job_Interview_Project.framework */,
+				CED64D61D65B3FD183522D11 /* Pods_Job_Interview_Project_Job_Interview_ProjectUITests.framework */,
+				6C034133ECBD0E551CCD904D /* Pods_Job_Interview_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8414BCA9268C67950003442C /* Job Interview Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414BCD4268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview Project" */;
+			buildPhases = (
+				DF7ECB6C1DE4DBE1156474A1 /* [CP] Check Pods Manifest.lock */,
+				8414BCA6268C67950003442C /* Sources */,
+				8414BCA7268C67950003442C /* Frameworks */,
+				8414BCA8268C67950003442C /* Resources */,
+				5F0EB5E35FC866E3E7C2F635 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Job Interview Project";
+			productName = "Job Interview Project";
+			productReference = 8414BCAA268C67950003442C /* Job Interview Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8414BCBF268C67990003442C /* Job Interview ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414BCD7268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview ProjectTests" */;
+			buildPhases = (
+				2E5C2B20B7FD4CDD027CE3A7 /* [CP] Check Pods Manifest.lock */,
+				8414BCBC268C67990003442C /* Sources */,
+				8414BCBD268C67990003442C /* Frameworks */,
+				8414BCBE268C67990003442C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8414BCC2268C67990003442C /* PBXTargetDependency */,
+			);
+			name = "Job Interview ProjectTests";
+			productName = "Job Interview ProjectTests";
+			productReference = 8414BCC0268C67990003442C /* Job Interview ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8414BCCA268C67990003442C /* Job Interview ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414BCDA268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview ProjectUITests" */;
+			buildPhases = (
+				0F4D6AD4A0E2376026DEC28C /* [CP] Check Pods Manifest.lock */,
+				8414BCC7268C67990003442C /* Sources */,
+				8414BCC8268C67990003442C /* Frameworks */,
+				8414BCC9268C67990003442C /* Resources */,
+				E8CFF63B6ABABB377D0A92A5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8414BCCD268C67990003442C /* PBXTargetDependency */,
+			);
+			name = "Job Interview ProjectUITests";
+			productName = "Job Interview ProjectUITests";
+			productReference = 8414BCCB268C67990003442C /* Job Interview ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8414BCA2268C67950003442C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8414BCA9268C67950003442C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8414BCBF268C67990003442C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8414BCA9268C67950003442C;
+					};
+					8414BCCA268C67990003442C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8414BCA9268C67950003442C;
+					};
+				};
+			};
+			buildConfigurationList = 8414BCA5268C67950003442C /* Build configuration list for PBXProject "Job Interview Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8414BCA1268C67950003442C;
+			productRefGroup = 8414BCAB268C67950003442C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8414BCA9268C67950003442C /* Job Interview Project */,
+				8414BCBF268C67990003442C /* Job Interview ProjectTests */,
+				8414BCCA268C67990003442C /* Job Interview ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8414BCA8268C67950003442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414BCBA268C67980003442C /* LaunchScreen.storyboard in Resources */,
+				8414BCB7268C67980003442C /* Assets.xcassets in Resources */,
+				8414BCB5268C67950003442C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCBE268C67990003442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCC9268C67990003442C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4D6AD4A0E2376026DEC28C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Interview Project-Job Interview ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5C2B20B7FD4CDD027CE3A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Interview ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0EB5E35FC866E3E7C2F635 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project/Pods-Job Interview Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project/Pods-Job Interview Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project/Pods-Job Interview Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF7ECB6C1DE4DBE1156474A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Interview Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CFF63B6ABABB377D0A92A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project-Job Interview ProjectUITests/Pods-Job Interview Project-Job Interview ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project-Job Interview ProjectUITests/Pods-Job Interview Project-Job Interview ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Job Interview Project-Job Interview ProjectUITests/Pods-Job Interview Project-Job Interview ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8414BCA6268C67950003442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414BCF0268D04A70003442C /* movieDetailViewModel.swift in Sources */,
+				8414BCE8268CE4DD0003442C /* PopularMovieTableViewCell.swift in Sources */,
+				8414BCEE268D04890003442C /* popularMoviesViewModel.swift in Sources */,
+				8414BCEC268CFC100003442C /* APIManager.swift in Sources */,
+				8414BCF2268DC3DB0003442C /* UIApplication + Extension.swift in Sources */,
+				8414BCE2268CE43A0003442C /* PopularMoviesListViewController.swift in Sources */,
+				8414BCF4268DC3EF0003442C /* UrlComponents + Extension.swift in Sources */,
+				84927E29268F75DF00E6C1B2 /* videoModel.swift in Sources */,
+				8414BCAE268C67950003442C /* AppDelegate.swift in Sources */,
+				8414BCE0268CDF750003442C /* movieDetailModel.swift in Sources */,
+				8414BCE4268CE4530003442C /* MovieDetailViewController.swift in Sources */,
+				8414BCE6268CE4780003442C /* VideoPlayerViewController.swift in Sources */,
+				8414BCEA268CFC010003442C /* HttpHandler.swift in Sources */,
+				84927E2B268F769D00E6C1B2 /* videoViewModel.swift in Sources */,
+				8414BCDE268CDDA80003442C /* popularMoviesModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCBC268C67990003442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84927E362691E3A300E6C1B2 /* MoviesDetailTestViewController.swift in Sources */,
+				8414BCC5268C67990003442C /* Job_Interview_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414BCC7268C67990003442C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414BCD0268C67990003442C /* Job_Interview_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8414BCC2268C67990003442C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414BCA9268C67950003442C /* Job Interview Project */;
+			targetProxy = 8414BCC1268C67990003442C /* PBXContainerItemProxy */;
+		};
+		8414BCCD268C67990003442C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414BCA9268C67950003442C /* Job Interview Project */;
+			targetProxy = 8414BCCC268C67990003442C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8414BCB3268C67950003442C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414BCB4268C67950003442C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8414BCB8268C67980003442C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414BCB9268C67980003442C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8414BCD2268C67990003442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8414BCD3268C67990003442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8414BCD5268C67990003442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186E8B87394D649B0FD50B38 /* Pods-Job Interview Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8414BCD6268C67990003442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4BD4F031D694F72A27637C /* Pods-Job Interview Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview Project/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8414BCD8268C67990003442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB477774076F4CF8A3B2946 /* Pods-Job Interview ProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Job Interview Project.app/Job Interview Project";
+			};
+			name = Debug;
+		};
+		8414BCD9268C67990003442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE2789FC78CD353BB2CC7C1 /* Pods-Job Interview ProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Job Interview Project.app/Job Interview Project";
+			};
+			name = Release;
+		};
+		8414BCDB268C67990003442C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4223BB337A08AD1137DE0C /* Pods-Job Interview Project-Job Interview ProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Job Interview Project";
+			};
+			name = Debug;
+		};
+		8414BCDC268C67990003442C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58DE649F2F91B817B15369A2 /* Pods-Job Interview Project-Job Interview ProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ST4PPBXY78;
+				INFOPLIST_FILE = "Job Interview ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smile.selfcare.Job-Interview-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Job Interview Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8414BCA5268C67950003442C /* Build configuration list for PBXProject "Job Interview Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414BCD2268C67990003442C /* Debug */,
+				8414BCD3268C67990003442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414BCD4268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414BCD5268C67990003442C /* Debug */,
+				8414BCD6268C67990003442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414BCD7268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414BCD8268C67990003442C /* Debug */,
+				8414BCD9268C67990003442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8414BCDA268C67990003442C /* Build configuration list for PBXNativeTarget "Job Interview ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414BCDB268C67990003442C /* Debug */,
+				8414BCDC268C67990003442C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8414BCA2268C67950003442C /* Project object */;
+}
